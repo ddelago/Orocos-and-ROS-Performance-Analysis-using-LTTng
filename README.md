@@ -55,11 +55,16 @@ babeltrace ./out/ > trace_data.txt
 Trace Compass
 -------------
 1. Open Trace Compass and create a new Tracing project
-
-2. 
-
+![](images/create_project.png)
+2. Import the location of the traces
+![](images/importTrace.png)
+3. Read the Trace Compass User guide on the available views for your trace. 
+Flame Graph
 
 ![](images/flame_graph.png)
+
+Call Stack
+
 ![](images/stack.png)
 
 
