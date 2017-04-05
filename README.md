@@ -22,9 +22,10 @@ Also follow these guides to better understand all tools involved:
 Tracing Procedure
 -----------------
 The following are the steps from creating an Orocos component, tracing that component, and visualizing those traces in Trace Compass. 
-The compile_component.sh and trace.sh scripts will compile and begin tracing your component. They have been included in the example HelloWorld component.
+The following steps are included in the compile_component.sh and trace.sh scripts which will compile and begin tracing your component. They have been included in the example HelloWorld component.
 
 1. Compile with debug flags:
+'''
 orocreate-pkg name component
 mkdir build; cd build
 	#Compile on command line or add to CMakeLists: set(DCMAKE_CXX_FLAGS "-g -finstrument-functions ${CMAKE_CXX_FLAGS}")
@@ -32,6 +33,7 @@ cmake .. -DCMAKE_INSTALL_PREFIX=$(pwd)/../../install -DCMAKE_CXX_FLAGS="-g -fins
 make install
 cd ..
 export RTT_COMPONENT_PATH=$(pwd)/../install/lib/orocos:$RTT_COMPONENT_PATH
+'''
 
 2. Start LTTng tracing, can create shell script from this:
 lttng create demo_session -o ./out
