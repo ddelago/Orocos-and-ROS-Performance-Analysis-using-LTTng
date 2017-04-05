@@ -6,9 +6,17 @@ This repository will explain the steps to tracing Orocos components using LTTng 
 
 Steps
 -----
-Be sure to have the following dependencies installed:
-- [LTTng](http://www.lttng.org/)
+Be sure to have the following installed:
+- [LTTng](http://www.lttng.org/)(>=2.8)
+- [Trace Compass](http://tracecompass.org/)
+- [Orocos Toolchain](http://www.orocos.org/wiki/upgrading-toolchain-2x-toolchain-28x)
+- [Orocos RTT](http://www.orocos.org/stable/documentation/rtt/v2.x/doc-xml/orocos-installation.html)
 
+Also follow these guides to better understand all tools involved:
+- [LTTng Docs](http://www.lttng.org/docs/v2.9/)
+- [The Orocos Component Builder's Manual](https://people.mech.kuleuven.be/~orocos/pub/devel/documentation/rtt/master/doc-xml/orocos-components-manual.html)
+- [Trace Compass User Guide](http://archive.eclipse.org/tracecompass/doc/stable/org.eclipse.tracecompass.doc.user/User-Guide.html)
+- [Trace Compass LTTng-UST analysis](http://archive.eclipse.org/tracecompass/doc/stable/org.eclipse.tracecompass.doc.user/LTTng-UST-Analyses.html)
 ![](images/flame_graph.png)
 ![](images/stack.png)
 
