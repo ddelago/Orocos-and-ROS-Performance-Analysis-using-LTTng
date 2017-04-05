@@ -1,5 +1,7 @@
 # Orocos-Performance-Analysis-using-LTTng
 
+Introduction
+------------
 ![](images/flame_graph.png)
 ![](images/stack.png)
 
