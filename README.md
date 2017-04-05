@@ -58,7 +58,7 @@ Trace Compass
 ![](images/create_project.png)
 2. Import the location of the traces
 ![](images/importTrace.png)
-3. Read the Trace Compass User guide on the available views for your trace. 
+3. Read the Trace Compass User guide on the available views for your trace. Examples:
    
    Flame Graph
 
@@ -67,5 +67,6 @@ Trace Compass
    Call Stack
 
    ![](images/stack.png)
+
 
 
