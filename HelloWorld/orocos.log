@@ -1,0 +1,129 @@
+0.000 [ Info   ][Logger] No ORO_LOGLEVEL environment variable set.
+0.000 [ Info   ][Logger]  OROCOS version '2.8.3' compiled with GCC 4.8.4. Running in GNU/Linux.
+0.000 [ Info   ][Logger] Orocos Logging Activated at level : [ Warning] ( 4 ) 
+0.000 [ Info   ][Logger] Reference System Time is : 1491411070861955197 ticks ( 1.49141e+09 seconds ).
+0.000 [ Info   ][Logger] Logging is relative to this time.
+0.000 [ Info   ][Logger] RTT_COMPONENT_PATH was set to: /home/daniel/Work/Orocos-Performance-Analysis-using-LTTng/HelloWorld/../install/lib/orocos:/home/daniel/Work/Orocos-Performance-Analysis-using-LTTng/test_trace/../install/lib/orocos:/home/daniel/Work/Orocos-Performance-Analysis-using-LTTng/test_trace/../install/lib/orocos:/home/daniel/../install/lib/orocos:/home/daniel/ROSDD/catkin_ws/devel/lib/orocos:/opt/ros/indigo/lib/orocos . Searching in: /home/daniel/Work/Orocos-Performance-Analysis-using-LTTng/HelloWorld/../install/lib/orocos:/home/daniel/Work/Orocos-Performance-Analysis-using-LTTng/test_trace/../install/lib/orocos:/home/daniel/../install/lib/orocos:/home/daniel/ROSDD/catkin_ws/devel/lib/orocos:/opt/ros/indigo/lib/orocos
+0.000 [ Info   ][Logger] plugin 'rtt' not loaded before.
+0.001 [ Info   ][Logger] Loading plugin libraries from directory /opt/ros/indigo/lib/orocos/gnulinux/./plugins ...
+0.005 [ Info   ][Logger] Loaded RTT Service 'marshalling' from 'rtt-marshalling'
+0.009 [ Info   ][Logger] Loaded RTT Service 'scripting' from 'rtt-scripting'
+0.009 [ Info   ][Logger] typekit 'rtt' not loaded before.
+0.009 [ Info   ][Logger] Loading typekit libraries from directory /opt/ros/indigo/lib/orocos/gnulinux/./types ...
+0.042 [ Info   ][TypekitRepository::Import] Loading Typekit rtt-types.
+0.043 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-types' from 'rtt-typekit'
+0.056 [ Info   ][TypekitRepository::Import] Loading Transport CORBA://rtt-types.
+0.056 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for ConnPolicy
+0.056 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for TaskContext
+0.056 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for array
+0.056 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for bool
+0.056 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for char
+0.056 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for double
+0.056 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for float
+0.056 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for int
+0.056 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for rt_string
+0.056 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for string
+0.056 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for uint
+0.056 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for void
+0.056 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-corba-types' from 'rtt-transport-corba'
+0.059 [ Info   ][TypekitRepository::Import] Loading Transport mqueue://rtt-types.
+0.059 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for array
+0.059 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for bool
+0.059 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for char
+0.059 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for double
+0.059 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for float
+0.059 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for int
+0.059 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for uint
+0.059 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-mqueue-transport' from 'rtt-transport-mqueue'
+0.059 [ Info   ][Logger] RTT_COMPONENT_PATH was set to: /home/daniel/Work/Orocos-Performance-Analysis-using-LTTng/HelloWorld/../install/lib/orocos:/home/daniel/Work/Orocos-Performance-Analysis-using-LTTng/test_trace/../install/lib/orocos:/home/daniel/Work/Orocos-Performance-Analysis-using-LTTng/test_trace/../install/lib/orocos:/home/daniel/../install/lib/orocos:/home/daniel/ROSDD/catkin_ws/devel/lib/orocos:/opt/ros/indigo/lib/orocos . Searching in: /home/daniel/Work/Orocos-Performance-Analysis-using-LTTng/HelloWorld/../install/lib/orocos:/home/daniel/Work/Orocos-Performance-Analysis-using-LTTng/test_trace/../install/lib/orocos:/home/daniel/../install/lib/orocos:/home/daniel/ROSDD/catkin_ws/devel/lib/orocos:/opt/ros/indigo/lib/orocos
+0.059 [ Info   ][Logger] OCL factory set for real-time logging
+0.059 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='Deployer'
+0.059 [ Info   ][Deployer] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 9287 ).
+0.059 [ Info   ][Logger] No site file was found. Importing 'ocl' by default.
+0.059 [ Info   ][ComponentLoader::import(path_list)] Importing directory /opt/ros/indigo/lib/orocos/gnulinux/ocl ...
+0.062 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/opt/ros/indigo/lib/orocos/gnulinux/ocl/liborocos-ocl-logging-gnulinux.so'
+0.065 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::HelloWorld'
+0.077 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/opt/ros/indigo/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-netcdf-gnulinux.so'
+0.077 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::NetcdfReporting'
+0.081 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::LuaTLSFComponent'
+0.084 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::LuaComponent'
+0.089 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/opt/ros/indigo/lib/orocos/gnulinux/ocl/liborocos-ocl-timer-gnulinux.so'
+0.092 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/opt/ros/indigo/lib/orocos/gnulinux/ocl/liborocos-ocl-common-gnulinux.so'
+0.095 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/opt/ros/indigo/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-gnulinux.so'
+0.095 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /opt/ros/indigo/lib/orocos/gnulinux/ocl/types ...
+0.100 [ Info   ][TypekitRepository::Import] Loading Typekit OCLTypekit.
+0.100 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'OCLTypekit' from 'ocl'
+0.100 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /opt/ros/indigo/lib/orocos/gnulinux/ocl/plugins ...
+0.103 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'print' from 'print'
+0.106 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'LuaTLSF' from 'rttlua-tlsf-plugin'
+0.110 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'os' from 'os'
+0.113 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'Lua' from 'rttlua-plugin'
+0.113 [ Info   ][Logger] Loading Service or Plugin scripting in TaskContext Deployer
+0.114 [ Info   ][Logger] Found complete interface of requested service 'scripting'
+0.114 [ Info   ][Logger] Running Script start.ops ...
+0.114 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='GlobalEngine'
+0.114 [ Info   ][GlobalEngine] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 9288 ).
+0.115 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/daniel/Work/Orocos-Performance-Analysis-using-LTTng/HelloWorld/../install/lib/orocos/gnulinux/HelloWorld ...
+0.118 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'Example::Hello'
+0.118 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='hello'
+0.118 [ Info   ][hello] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 9289 ).
+0.118 [ Info   ][loadComponent] Adding hello as new peer:  OK.
+0.119 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='TaskBrowser'
+0.119 [ Info   ][TaskBrowser] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 9290 ).
+0.119 [ Info   ][Logger] Entering Task Deployer
+13.816 [ Info   ][Logger] Configure !
+44.660 [ Info   ][Logger] Start !
+44.816 [ Info   ][Logger] Update !
+45.316 [ Info   ][Logger] Update !
+45.816 [ Info   ][Logger] Update !
+46.316 [ Info   ][Logger] Update !
+46.816 [ Info   ][Logger] Update !
+47.316 [ Info   ][Logger] Update !
+47.816 [ Info   ][Logger] Update !
+48.316 [ Info   ][Logger] Update !
+48.816 [ Info   ][Logger] Update !
+49.316 [ Info   ][Logger] Update !
+49.816 [ Info   ][Logger] Update !
+50.316 [ Info   ][Logger] Update !
+50.816 [ Info   ][Logger] Update !
+51.316 [ Info   ][Logger] Update !
+51.816 [ Info   ][Logger] Update !
+52.316 [ Info   ][Logger] Update !
+52.816 [ Info   ][Logger] Update !
+53.316 [ Info   ][Logger] Update !
+53.816 [ Info   ][Logger] Update !
+54.316 [ Info   ][Logger] Update !
+54.816 [ Info   ][Logger] Update !
+55.316 [ Info   ][Logger] Update !
+55.816 [ Info   ][Logger] Update !
+56.316 [ Info   ][Logger] Update !
+56.816 [ Info   ][Logger] Update !
+57.316 [ Info   ][Logger] Update !
+57.816 [ Info   ][Logger] Update !
+58.316 [ Info   ][Logger] Update !
+58.816 [ Info   ][Logger] Update !
+59.316 [ Info   ][Logger] Update !
+59.816 [ Info   ][Logger] Update !
+60.316 [ Info   ][Logger] Update !
+60.816 [ Info   ][Logger] Update !
+61.316 [ Info   ][Logger] Update !
+61.816 [ Info   ][Logger] Update !
+62.316 [ Info   ][Logger] Update !
+62.816 [ Info   ][Logger] Update !
+63.316 [ Info   ][Logger] Update !
+64.316 [ Info   ][Logger] Update !
+65.316 [ Info   ][Logger] Update !
+66.316 [ Info   ][Logger] Update !
+67.316 [ Info   ][Logger] Update !
+68.316 [ Info   ][Logger] Update !
+69.316 [ Info   ][Logger] Stop !
+70.447 [ Info   ][Logger] Cleanup !
+71.735 [ Info   ][Logger] Ignoring deployment shutdown function due to missing peer.
+71.736 [ Info   ][stopComponentsGroup] Stopping group 0
+71.736 [ Info   ][stopComponentsGroup] Stopped hello
+71.736 [ Info   ][cleanupComponentsGroup] Cleaning up group 0
+71.736 [ Info   ][cleanupComponentsGroup] Cleaned up hello
+71.736 [ Info   ][Logger] Unloading group 0
+72.317 [ Info   ][Logger] Disconnected and destroyed hello
+72.317 [ Info   ][Logger] Kick-out of group 0 successful.
+72.317 [ Info   ][Logger] Orocos Logging Deactivated.

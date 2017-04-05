@@ -1,0 +1,2 @@
+/home/daniel/Work/Orocos-Performance-Analysis-using-LTTng/install/lib/orocos/gnulinux/HelloWorld/libHelloWorld-gnulinux.so
+/home/daniel/Work/Orocos-Performance-Analysis-using-LTTng/install/lib/pkgconfig/HelloWorld-gnulinux.pc
