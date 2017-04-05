@@ -24,7 +24,7 @@ The steps are included in the compile_component.sh and trace.sh scripts which wi
 
 1. Create and compile Orocos component with debug flags:
 ```
- #Creating a component is not included in compile_component.sh 	
+**#Creating a component is not included in compile_component.sh**
 orocreate-pkg HelloWorld component
 mkdir build; cd build
  #Compiler flags can be added to CMakeLists instead of in terminal: set(DCMAKE_CXX_FLAGS "-g -finstrument-functions ${CMAKE_CXX_FLAGS}")
