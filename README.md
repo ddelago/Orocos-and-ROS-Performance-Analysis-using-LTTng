@@ -6,6 +6,8 @@ This repository will explain the steps to tracing Orocos components using LTTng 
 
 Steps
 -----
+Be sure to have the following dependencies installed:
+- [LTTng](http://www.lttng.org/)
 
 ![](images/flame_graph.png)
 ![](images/stack.png)
