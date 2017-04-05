@@ -3,6 +3,10 @@
 Introduction
 ------------
 This repository will explain the steps to tracing Orocos components using LTTng and visualizing those traces using Trace Compass. 
+
+Steps
+-----
+
 ![](images/flame_graph.png)
 ![](images/stack.png)
 
