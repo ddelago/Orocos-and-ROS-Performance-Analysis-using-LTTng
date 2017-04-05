@@ -14,9 +14,11 @@ Be sure to have the following installed:
 
 Also follow these guides to better understand all tools involved:
 - [LTTng Docs](http://www.lttng.org/docs/v2.9/)
+- [LTTng Function Tracing](http://lttng.org/man/3/lttng-ust-cyg-profile/v2.9/)
 - [The Orocos Component Builder's Manual](https://people.mech.kuleuven.be/~orocos/pub/devel/documentation/rtt/master/doc-xml/orocos-components-manual.html)
 - [Trace Compass User Guide](http://archive.eclipse.org/tracecompass/doc/stable/org.eclipse.tracecompass.doc.user/User-Guide.html)
 - [Trace Compass LTTng-UST analysis](http://archive.eclipse.org/tracecompass/doc/stable/org.eclipse.tracecompass.doc.user/LTTng-UST-Analyses.html)
+
 ![](images/flame_graph.png)
 ![](images/stack.png)
 
