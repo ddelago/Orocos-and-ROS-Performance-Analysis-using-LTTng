@@ -59,7 +59,7 @@ Trace Compass
 2. Import the location of the traces
 ![](images/importTrace.png)
 3. Read the Trace Compass User guide on the available views for your trace. 
-   Flame Graph
+   \nFlame Graph
 
    ![](images/flame_graph.png)
 
