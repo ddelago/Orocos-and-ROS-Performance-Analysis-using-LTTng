@@ -19,12 +19,10 @@ Also follow these guides to better understand all tools involved:
 - [Trace Compass User Guide](http://archive.eclipse.org/tracecompass/doc/stable/org.eclipse.tracecompass.doc.user/User-Guide.html)
 - [Trace Compass LTTng-UST analysis](http://archive.eclipse.org/tracecompass/doc/stable/org.eclipse.tracecompass.doc.user/LTTng-UST-Analyses.html)
 
-![](images/flame_graph.png)
-![](images/stack.png)
-
-Install Orocos and LTTng
-
 Tracing Procedure
+-----------------
+The following are the steps from creating an Orocos component, tracing that component, and visualizing those traces in Trace Compass. 
+In the example HelloWorld Component 
 
 1. Compile with debug flags:
 orocreate-pkg name component
@@ -40,9 +38,14 @@ lttng create demo_session -o ./out
 lttng enable-event -u -a
 lttng add-context -u -t vpid -t vtid -t procname -t ip
 lttng start
-LD_PRELOAD=liblttng-ust-cyg-profile.so:liblttng-ust-dl.so deployer -s deployment.xml
+LD_PRELOAD=liblttng-ust-cyg-profile.so:liblttng-ust-dl.so deployer -s start.ops
 lttng stop
 lttng destroy
 
 3. Display Trace:
 babeltrace ./out/ > trace_data.txt
+
+![](images/flame_graph.png)
+![](images/stack.png)
+
+
