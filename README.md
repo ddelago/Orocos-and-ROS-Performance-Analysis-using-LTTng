@@ -1,7 +1,8 @@
-# Orocos-Performance-Analysis-using-LTTng
+# Orocos Performance Analysis using LTTng
 
 Introduction
 ------------
+This repository will explain the steps to tracing Orocos components using LTTng and visualizing those traces using Trace Compass. 
 ![](images/flame_graph.png)
 ![](images/stack.png)
 
