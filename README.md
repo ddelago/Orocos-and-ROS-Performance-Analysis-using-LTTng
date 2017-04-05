@@ -26,10 +26,10 @@ The steps are included in the compile_component.sh and trace.sh scripts which wi
 
 1. Create and compile Orocos component with debug flags:
 ```
-#Creating a component is not included in compile_component.sh 	
+#-Creating a component is not included in compile_component.sh 	
 orocreate-pkg HelloWorld component
 mkdir build; cd build
-#Compiler flags can be added to CMakeLists instead of in terminal: set(DCMAKE_CXX_FLAGS "-g -finstrument-functions ${CMAKE_CXX_FLAGS}")
+#-Compiler flags can be added to CMakeLists instead of in terminal: set(DCMAKE_CXX_FLAGS "-g -finstrument-functions ${CMAKE_CXX_FLAGS}")
 cmake .. -DCMAKE_INSTALL_PREFIX=$(pwd)/../../install -DCMAKE_CXX_FLAGS="-g -finstrument-functions"
 make install
 cd ..
@@ -38,22 +38,24 @@ export RTT_COMPONENT_PATH=$(pwd)/../install/lib/orocos:$RTT_COMPONENT_PATH
 
 2. Start LTTng tracing:
 ```
-#Save traces in /out/ directory
+#-Save traces in /out/ directory
 lttng create demo_session -o ./out
-#Enable all userspace traces
+#-Enable all userspace traces
 lttng enable-event -u -a
 lttng add-context -u -t vpid -t vtid -t procname -t ip
 lttng start
-#start.ops is the components deployment script
+#-start.ops is the components deployment script
 LD_PRELOAD=liblttng-ust-cyg-profile.so:liblttng-ust-dl.so deployer -s start.ops
 lttng stop
 lttng destroy
 ```
-3. Display Trace:
+3. Save Traces:
 ```
-#Save traces to text file
+#-Save traces to text file
 babeltrace ./out/ > trace_data.txt
 ```
+4. Visualize Traces
+Open in trace compass
 
 ![](images/flame_graph.png)
 ![](images/stack.png)
