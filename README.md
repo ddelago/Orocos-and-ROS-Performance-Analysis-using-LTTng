@@ -53,8 +53,7 @@ lttng destroy
 babeltrace ./out/ > trace_data.txt
 ```
 4. Visualize Traces
-
-Open in trace compass
+- Open in trace compass
 
 ![](images/flame_graph.png)
 ![](images/stack.png)
