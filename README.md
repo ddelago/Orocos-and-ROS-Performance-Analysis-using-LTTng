@@ -22,7 +22,7 @@ Also follow these guides to better understand all tools involved:
 Tracing Procedure
 -----------------
 The following are the steps from creating an Orocos component, tracing that component, and visualizing those traces in Trace Compass. 
-In the example HelloWorld Component 
+The compile_component.sh and trace.sh scripts will compile and begin tracing your component. They have been included in the example HelloWorld component.
 
 1. Compile with debug flags:
 orocreate-pkg name component
