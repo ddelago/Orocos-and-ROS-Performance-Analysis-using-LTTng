@@ -52,8 +52,12 @@ lttng destroy
 - Save traces to text file
 babeltrace ./out/ > trace_data.txt
 ```
-4. Visualize Traces
-- Open in trace compass
+Trace Compass
+-------------
+1. Open Trace Compass and create a new Tracing project
+
+2. 
+
 
 ![](images/flame_graph.png)
 ![](images/stack.png)
