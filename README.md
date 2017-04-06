@@ -60,11 +60,11 @@ Trace Compass
 ![](images/importTrace.png)
 3. Read the Trace Compass User guide on the available views for your trace. Examples:
    
-   Flame Graph
+   Flame Graph:
 
    ![](images/flame_graph.png)
 
-   Call Stack
+   Call Stack:
 
    ![](images/stack.png)
 
