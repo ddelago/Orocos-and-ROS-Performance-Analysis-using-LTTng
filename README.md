@@ -1,4 +1,4 @@
-# Orocos Performance Analysis using LTTng
+# Orocos and ROS Performance Analysis using LTTng
 
 Introduction
 ------------
@@ -68,7 +68,7 @@ Trace Compass
 
    ![](images/stack.png)
 
-Alternative Applications
+Alternative Applications: ROS
 -----------------------
 Along with Orocos components, ROS nodes also work very well with LTTng tracing and visualization. To do so just compile the  workspace with "-g -finstrument-functions" flags and create a directory to store your traces.
 ```
