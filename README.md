@@ -70,9 +70,7 @@ Trace Compass
 
 Alternative Applications
 -----------------------
-Along with Orocos components, ROS nodes also work very well with LTTng tracing and visualization. 
-
-Compile workspace with "-g -finstrument-functions" flags
+Along with Orocos components, ROS nodes also work very well with LTTng tracing and visualization. To do so just compile the  workspace with "-g -finstrument-functions" flags.
 ```
 - Insert in CMakeLists 
 set(DCMAKE_CXX_FLAGS "-g -finstrument-functions ${CMAKE_CXX_FLAGS}")
