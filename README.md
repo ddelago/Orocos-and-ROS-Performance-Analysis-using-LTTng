@@ -75,7 +75,7 @@ Along with Orocos components, ROS nodes also work very well with LTTng tracing a
 - Insert in CMakeLists 
 set(DCMAKE_CXX_FLAGS "-g -finstrument-functions ${CMAKE_CXX_FLAGS}")
 - Or in terminal to apply to all packages in workspace
-catkin_make --cmake-args -g -finstrument-functions
+catkin_make --cmake-args -DCMAKE_CXX_FLAGS="-g -finstrument-functions"
 ```
 ROS node call stack example:
 
