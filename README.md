@@ -77,6 +77,6 @@ set(DCMAKE_CXX_FLAGS "-g -finstrument-functions ${CMAKE_CXX_FLAGS}")
 - Or in terminal to apply to all packages in workspace
 catkin_make --cmake-args -g -finstrument-functions
 ```
-Example:
+ROS node call stack example:
 
 ![](images/ROS_call_stack_1.png)
